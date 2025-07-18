@@ -1,0 +1,119 @@
+/* Reset default margins and fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #ffdffd;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 280px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .about, .contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px 30px;
+  }
+  
+  .about h2, .contact h2 {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .contact a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+  }
+  section {
+    margin:20px 30px;
+  }
+
+  .list-container {
+    max-width: 300px;
+    margin: auto;
+    background-color: #ffdff5;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+ .list {
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+    
+ }
